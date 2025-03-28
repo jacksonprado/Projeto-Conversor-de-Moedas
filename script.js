@@ -6,13 +6,13 @@ const amount = document.getElementById("amount");
 const result = document.getElementById("result");
 const convertButton = document.getElementById("convert");
 
-// Cria um contêiner para as bandeiras
+
 const flagsContainer = document.createElement("div");
 flagsContainer.style.display = "flex"; 
 flagsContainer.style.justifyContent = "center"; 
 flagsContainer.style.gap = "20px"; 
 
-// Cria os elementos das bandeiras
+
 const fromLogo = document.createElement("img");
 const toLogo = document.createElement("img");
 
