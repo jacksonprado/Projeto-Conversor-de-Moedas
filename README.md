@@ -1,5 +1,7 @@
 # Currency Converter
 <img src="video demo/Currency Convert img.png">
+[Assista ao vídeo clicando no link](https://youtu.be/HtG4fwvIppc)
+
 Bem-vindo ao **Currency Converter**! Este é um projeto criado para facilitar a conversão de moedas de forma prática e eficiente.
 
 ## Funcionalidades
