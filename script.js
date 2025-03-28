@@ -8,15 +8,15 @@ const convertButton = document.getElementById("convert");
 
 // Cria um contêiner para as bandeiras
 const flagsContainer = document.createElement("div");
-flagsContainer.style.display = "flex"; // Configura flexbox para bandeiras lado a lado
-flagsContainer.style.justifyContent = "center"; // Centraliza as bandeiras
-flagsContainer.style.gap = "20px"; // Adiciona espaço entre as bandeiras
+flagsContainer.style.display = "flex"; 
+flagsContainer.style.justifyContent = "center"; 
+flagsContainer.style.gap = "20px"; 
 
 // Cria os elementos das bandeiras
 const fromLogo = document.createElement("img");
 const toLogo = document.createElement("img");
 
-// Adiciona as bandeiras ao contêiner e o contêiner à página
+
 flagsContainer.appendChild(fromLogo);
 flagsContainer.appendChild(toLogo);
 convertButton.after(flagsContainer);
